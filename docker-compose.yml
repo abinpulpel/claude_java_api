@@ -1,0 +1,10 @@
+services:
+  api-test-runner:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    environment:
+      - ENV=qa
+    volumes:
+      - ./target/surefire-reports:/workspace/target/surefire-reports
+      - ./allure-results:/workspace/allure-results
