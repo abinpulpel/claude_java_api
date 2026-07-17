@@ -1,0 +1,11 @@
+target/
+.git/
+.github/
+.idea/
+*.iml
+allure-results/
+allure-report/
+logs/
+*.log
+.DS_Store
+README.md
