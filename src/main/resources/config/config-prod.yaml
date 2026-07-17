@@ -1,0 +1,7 @@
+# Production environment overrides.
+# Read-only / smoke-safe calls only should target this profile.
+
+base_url: "https://jsonplaceholder.typicode.com"
+retry_count: 3
+parallel_thread_count: 1
+schema_validation_enabled: true
