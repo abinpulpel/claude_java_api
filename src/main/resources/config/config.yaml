@@ -1,0 +1,11 @@
+# Base configuration shared across all environments.
+# Per-environment files (config-<env>.yaml) override any of these keys.
+
+base_url: "https://jsonplaceholder.typicode.com"
+connection_timeout_ms: 10000
+read_timeout_ms: 15000
+request_log_level: "headers"
+response_log_level: "status"
+retry_count: 1
+parallel_thread_count: 4
+schema_validation_enabled: true
