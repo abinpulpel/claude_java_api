@@ -1,0 +1,12 @@
+[
+  {
+    "userId": 1,
+    "title": "Sample post title for automated creation test",
+    "body": "Sample post body used to validate the POST /posts endpoint."
+  },
+  {
+    "userId": 2,
+    "title": "Second data-driven post title",
+    "body": "Second data-driven post body for parametrized create scenario."
+  }
+]
